@@ -1,2 +1,2 @@
 # Data_Science_Programming
-summer session
+Data Science Programming
