@@ -4,12 +4,8 @@ ID : B04703101 <br />
 Department 財金四 <br />
 
 # Week 1
-* Github account
-* README.md
-* Install Git
-* Install R.Rstudio
-* Build Rmarkdown
-*[HW1](https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/HW1.html)
+
+* [HW1](https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/HW1.html)
 
 # Week 2
 # Week 3
