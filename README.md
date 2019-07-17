@@ -8,11 +8,12 @@ Department 財金四 <br />
 * README.md
 * Install Git
 * Install R.Rstudio
-* [Build Rmarkdown](https://github.com/yo-shi-mi/hw/blob/master/week%201.1/my_first_r_markdown.html)
-
+* Build Rmarkdown
+*[HW1](https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/HW1.html)
 
 # Week 2
 # Week 3
+
 # Week 4
 # Week 5
 
