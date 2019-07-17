@@ -1,7 +1,7 @@
 # Profile
 Nname: 黃竣德 <br />
 ID : B04703101 <br />
-Department 財金四 <br />
+Department ：財金四 <br />
 
 # Week 1
 
