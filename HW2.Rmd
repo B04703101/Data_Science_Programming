@@ -1,0 +1,51 @@
+---
+title: "HW2"
+author: "De Huang"
+date: "2019年7月21日"
+output: html_document
+---
+
+#目的
+
+了解台灣的老年人口在各縣市分布的情形，畫出前六高的縣市的長條圖。
+
+#來源
+
+[內政部統計網](http://statis.moi.gov.tw/micst/stmain.jsp?sys=100)
+
+#過程及結果
+
+```{r }
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+
+#讀取及清洗資料
+
+data <-  read.csv("elderly_data.csv")
+
+  m1 <- mutate(data, ratio = 老年人口 / 人口數) %>% 
+  arrange(desc(ratio)) 
+
+
+#展示長條圖
+data1 = head(select(m1, X , ratio))
+
+
+  ggplot( data1, aes(x = X, y = ratio))+
+    geom_bar(stat = "identity", width = 0.5)+
+    labs(title = "老年人口比例前六高長條圖", 
+         x = "行政區名稱", y = "65歲以上人口佔總人口比例")+
+    theme(
+      plot.title = element_text(color="black", size=8, face="plain",hjust = 0.5),
+      axis.title.x = element_text(color="black", size=8, face="plain"),
+      axis.title.y = element_text(color="black", size=8, face="plain")
+    )
+
+
+```
+
+
+#結論及反省
+可以呈現前六高的縣市為嘉義縣、雲林縣、台北市、南投市、台東縣、南投縣。原本想以遞減方式呈現長條，但沒有試成功。再來Y軸比例可再調整使差異明顯。
