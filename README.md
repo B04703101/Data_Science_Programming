@@ -8,6 +8,9 @@ Department ：財金四 <br />
 * [HW1](https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/HW1.html)
 
 # Week 2
+* Data Visualization
+* EDA (Exploratory Data Analysis)
+* [HW2](https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/HW2.html)
 # Week 3
 
 # Week 4
