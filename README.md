@@ -16,6 +16,7 @@ Department ：財金四 <br />
 # Week 3
 * Text miming
 * ML
+* [HW3]((https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/hw3.html)
 * [Final Project](https://htmlpreview.github.io/?https://github.com/B04703101/Data_Science_Programming/blob/master/project.html)
 
 
